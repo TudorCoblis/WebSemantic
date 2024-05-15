@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sursa initiala</title>
+</head>
+<body>
+    <h1>Sursa initiala</h1>
+    <script type="application/ld+json">
+      {
+        "@context": {
+          "schema": "https://schema.org/"
+        },
+        "@graph": [
+            {
+              "@id": "house1",
+              "@type": "House",
+              "address": "Strada Closca, nr. 1",
+              "numberOfRooms": 4,
+              "numberOfBathroomsTotal": 1,
+              "people":[
+              {
+                "@type": "Person",
+              "@id": "1",
+              "name": "John Doe",
+              "jobTitle": "Software Engineer",
+              "email": "johndoe@gmail.com"
+              },
+              {
+                "@type": "Person",
+              "@id": "2",
+              "name": "Jane Doe",
+              "jobTitle": "Software Engineer",
+              "email": "janedoe@gmail.com"
+              }
+              ]
+          },
+          {
+              "@id": "house2",
+              "@type": "House",
+              "address": "Strada Crisan, nr. 4",
+              "numberOfRooms": 3,
+              "numberOfBathroomsTotal": 1,
+              "people":[
+              {
+                "@type": "Person",
+              "@id": "3",
+              "name": "Rares Criste",
+              "jobTitle": "Student",
+              "email": "rares@yahoo.com"
+              },
+              {
+                "@type": "Person",
+              "@id": "4",
+              "name": "Oana Criste",
+              "jobTitle": "Student",
+              "email": "oana.criste@gmail.com"
+              }
+              ]
+          },
+          {
+              "@id": "house3",
+              "@type": "House",
+              "address": "Strada Horea, nr. 9",
+              "numberOfRooms": 5,
+              "numberOfBathroomsTotal": 2,
+              "people":[
+              {
+                "@type": "Person",
+              "@id": "5",
+              "name": "Tudor Coblis",
+              "jobTitle": "Software Engineer",
+              "email": "tudorcoblis@gmail.com"
+              }
+              ]
+          }
+        ]
+      }
+    </script>
+</body>
+</html>
